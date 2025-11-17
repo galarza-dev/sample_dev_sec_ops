@@ -38,7 +38,7 @@ La próxima vez que el pipeline pase completo, el job deploy publicará tu dist/
 6. (Opcional) Simular el “arreglo” de seguridad
 Cuando quieras mostrar cómo “arreglas” el problema:
 Cambia en package.json:
-"lodash": "4.17.21"
+"lodash": "4.17.21" //4.17.21 , 4.17.19
 Luego:
 npm install
 git add package.json package-lock.json
